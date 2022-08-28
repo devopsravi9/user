@@ -1,4 +1,4 @@
 appName: user
-Service:
+service:
   port: 8080
   type: ClusterIp
