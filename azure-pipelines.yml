@@ -2,7 +2,11 @@
 #default azure runs stages parallely, to make it sequential we should write condition
 
 trigger:
-- main
+  branches:
+    include:
+    exclude:
+    - main
+
 
 pool: d65
 
