@@ -2,3 +2,6 @@ appName: user
 service:
   port: 8080
   type: "ClusterIP"
+ingress:
+  enabled: false
+  scheme: null
