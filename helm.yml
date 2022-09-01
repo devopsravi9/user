@@ -5,3 +5,5 @@ service:
 ingress:
   enabled: false
   scheme: null
+configMap:
+  enabled: "false"
