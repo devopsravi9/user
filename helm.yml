@@ -29,3 +29,12 @@ resources:
     memory: "356Mi"
     cpu: "350m"
 
+health:
+  endpoint: /health
+  port: 8080
+  readiness:
+    initialDelaySeconds: 10
+    periodSeconds: 10
+  liveness:
+    initialDelaySeconds : 5
+    periodSeconds : 10
